@@ -1,0 +1,10 @@
+venv
+*.pyc
+
+to.txt
+template.md
+
+# remember to hide the customized email set while making this public
+to.txt.pc
+to.txt.rc
+ExcelWorkbookTemplate.xlsx
