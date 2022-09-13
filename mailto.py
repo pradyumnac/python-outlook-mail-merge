@@ -3,7 +3,7 @@ import webbrowser
 import urllib.parse
     
 
-recipients  = [emailaddress.strip().lower() for emailaddress in open("to.txt","r").readlines()]
+recipients  = [emailaddress.strip().lower() for emailaddress in open("to.txt.rc","r").readlines()]
 templatelst = open("template.md","r").readlines()
 subject     = templatelst[0].strip("Subject:").strip()
 body        = "".join(templatelst[2:])
